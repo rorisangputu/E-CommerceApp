@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    font-family: 'Lato', sans-serif; /* Use Lato as the primary font with a fallback */
+    margin: 0;
+    height: 100vh;
+    
+
+  }
+
+  nav{
+    margin: 0;
+    /* border: 1px solid green; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .navbar{
+    /* border: 1px solid purple; */
+    width: 130vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; /* Center the .navbar horizontally within the nav */
+
+  }
+
+  .logo-container #logo{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid orange; */
+  }
+
+  .nav-element{
+    /* border: gold 1px solid; */
+  }
+
+  .navlinks{
+    width: 25vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+  }
+
+  .link{
+    /* border: yellow solid 1px; */
+    font-size: large;
+    cursor: pointer;
+
+  }
+
+  .link img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .search-bar {
+    height: 30px;
+    width: 28rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+
+  .search-bar input {
+    border: none;
+    height: 30px;
+    width: 25rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  .search-bar img{
+    height: 25px;
+    width: 25px;
+    padding-left: 7px;
+  }
+  

@@ -86,7 +86,7 @@ body {
 
   #hero{
     /* border: 1px solid red; */
-    height: 77vh;
+    height: 74vh;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -165,7 +165,7 @@ body {
 
 #featured{
     /* border: red 1px solid; */
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,6 +286,67 @@ body {
 
     /* TRENDING NOW */
 
+    .TrendingNow{
+        /* border: 1px solid red; */
+        height: 45vh;
+        
+    }
+
+    .trending{
+        display: flex;
+        justify-content: space-between;
+        width: 135vh;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .button-with-image img{
+        vertical-align: middle;
+        height: 30px; 
+    }
+
+    .button-with-image{
+        height: 5vh;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .slider{
+        /* border: 1px solid blue; */
+        width: 135vh;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .sliderWrapper{
+        display: flex;
+        transition: transform 0.3s ease;
+        gap: 1rem;
+        
+    }
+
+    .sliderItem{
+        border: 1px solid rgba(62, 61, 61, 0.416);
+        /* border-radius: 20px; */
+        width: 251px;
+        
+    }
+    
+    .sliderItem img{
+        height: 245px;
+        width: 220px;
+        border-top-left-radius: 20px; /* Adjust radius as needed */
+        border-top-right-radius: 20px;
+    }
+    
+    .sliderItem p{
+        margin-left: 5px;
+    }
+    
+    .sliderItem h3{
+        margin-left: 5px;
+    }
 
     /* NEWSLETTER */
 
